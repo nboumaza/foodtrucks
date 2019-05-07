@@ -49,7 +49,7 @@ It integrates cloud technologies into the framework, and microservice patterns s
 distributed tracing, circuit breaker, fallback service hooks, API versioning and many others baked into the framework -:)
 
 
-# Developer Building and Running Steps
+# Building and Running Steps
 
 ### Prerequisite:
 

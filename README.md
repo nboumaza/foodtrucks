@@ -126,7 +126,7 @@ java -jar ./build/libs/*-all.jar
 
 1. Foodtrucks Service Updated with the added functionality. 
 
-2. User Service : user registration and opt in disclosure of foodies preferences (vegan/meat lover/ ...etc)
+2. User Service: user registration and opt in disclosure of foodies preferences (vegan/meat lover/ ...etc)
 
 3. CF Service: Uses Collaborative Filtering to predict the likelihood a user would like foodtruck(s) liked by other users 
 that share same ratings for same type of food.  (relies on trained ML algorithm  )

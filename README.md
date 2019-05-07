@@ -116,9 +116,9 @@ java -jar ./build/libs/*-all.jar
      
 4. CI/CD via Kubernetes 
     
-    3.1 Test out the included yml files under kubernetes
+    4.1 Test out the included yml files under kubernetes
     
-    3.3 Update the doc
+    4.2 Update the doc
 
 # Potential Functional Enhancements
 

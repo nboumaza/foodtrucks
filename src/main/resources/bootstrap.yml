@@ -1,0 +1,43 @@
+micronaut:
+    application:
+        name: foodtrucks
+    config-client:
+        enabled: true
+    server:
+      cors:
+        enabled: true
+        configurations:
+          web:
+            allowedMethods:
+              - GET
+      maxRequestSize: 1MB
+      host: localhost
+      netty:
+        maxHeaderSize: 500KB
+        worker:
+          threads: 8
+        childOptions:
+          autoRead: true
+      router:
+        versioning:
+          enabled: false
+          default-version: 1
+        header:
+          enabled: true
+          names:
+            - 'X-API-VERSION'
+            - 'Accept-Version'
+consul:
+    client:
+        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+tracing:
+  zipkin:
+    enabled: true
+    http:
+      url: http://localhost:9411
+      sampler:
+        probability: 0.1
+
+foodtrucks:
+  data:
+    uri: https://data.sfgov.org/resource/rqzj-sfat.json?$select=applicant,longitude,latitude,fooditems

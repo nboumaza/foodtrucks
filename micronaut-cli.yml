@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: com.nboumaza.foodies
+---
+testFramework: junit
+sourceLanguage: java

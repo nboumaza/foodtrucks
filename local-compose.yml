@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mongo:
+    image: bitnami/mongodb:latest
+    ports:
+      - "27017:27017"
+
+  consul:
+    image: consul:1.4
+    command: agent -server -client=0.0.0.0 -bootstrap -ui
+    ports:
+      - "8500:8500"
+    restart: always
+
+  zipkin:
+    image: openzipkin/zipkin:latest
+    ports:
+      - "9411:9411"

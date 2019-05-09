@@ -122,7 +122,7 @@ java -jar ./build/libs/*-all.jar
 
 # Potential Functional Enhancements
 
-![alt text](doc/img/evolve.png)
+![alt text](doc/img/evo.png)
 
 1. Foodtrucks Service Updated with the added functionality. 
 

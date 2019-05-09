@@ -15,6 +15,7 @@ decoupling of functional context, ease of scalability and maintainability
 The first iteration of the solution aims to provide an example 
 implementation comprised of a single service (FoodTrucks Service)
 ![alt text](doc/img/solo.png)
+
 The **Potential Functional Enhancements** section illustrates potential additional
 services that can complement the FoodTrucks service.
 

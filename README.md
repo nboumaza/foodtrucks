@@ -15,7 +15,7 @@ decoupling of functional context, ease of scalability and maintainability
 The first iteration of the solution aims to provide an example 
 implementation comprised of a single service (FoodTrucks Service)
 
-![alt text](./doc/img/Solo.png)
+![alt text](doc/img/solo.png)
 
 The **Potential Functional Enhancements** section illustrates potential additional
 services that can complement the FoodTrucks service.
@@ -122,7 +122,7 @@ java -jar ./build/libs/*-all.jar
 
 # Potential Functional Enhancements
 
-![alt text](./doc/img/Evolution.png)
+![alt text](doc/img/evolve.png)
 
 1. Foodtrucks Service Updated with the added functionality. 
 

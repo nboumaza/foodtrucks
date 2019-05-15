@@ -58,18 +58,19 @@ Note: A Gradle wrapper is provides in the project. You can alternatively use you
 
 ## Building
 
-1. Clone this repo and change
-```
-git clone https://github.com/nboumaza/foodies.git
-```
+1- Clone this repo and change
+\
 
-2. Build foodtrucks artifact
-```
-./gradlew build
-```
+    git clone https://github.com/nboumaza/foodtrucks.git
+    
+2- Build foodtruck artifact
+
+
+    ./gradlew build
+
 ## Running 
 
-3. At the root of the project locate the file named **local-compose.yml**:
+3- At the root of the project locate the file named **local-compose.yml**:
 It orchestrates 3 container services: MongoDB, Consul and Zipkin.
 Issue the following command to start the your local runtime stack (in non detached
 mode if you'd like to keep an eye on the runtime info)
@@ -80,7 +81,7 @@ Note: to stop the service you use the following commands:
 ```
 docker-compose -f local-compose.yml down
 ```
-4. Once you stack is up and running, start the foodtrucks service:
+4- Once you stack is up and running, start the foodtrucks service:
 From the root folder of the project, run the following command:
 
 ```
